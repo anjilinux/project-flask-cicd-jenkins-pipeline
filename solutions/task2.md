@@ -26,7 +26,7 @@ Time to install the Database on the cloud, pay attention that I created a namesp
  ```
  #### with auto scale enabled in databases we actually need `statefull` services for sincing the databases. I will NOT cover that in this demonstration.
 
-## I ALSO strongly recommend that we use `Configfile` for database connection info and use `Secret` for storing username/password combinations, but as long as in this project we defined that configs in the `.env` file I will skip this process. I just want you to know in the industrial level I never ever do that, so I demonstrated the ConfigMap file in the postgres YAML file.
+## I ALSO strongly recommend that we use `ConfigMap` for database connection info and use `Secret` for safe storing username/password combinations, but as long as in this project we defined that configs in the `.env` file I will skip this process. I just want you to know in the industrial level I never ever do that, so I demonstrated the ConfigMap file in the postgres YAML file.
 
 
 

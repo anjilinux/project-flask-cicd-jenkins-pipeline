@@ -6,9 +6,12 @@
 
 This task doesn’t have any solutions just it mentions that I have to use so many comments and easy language stuffs so, I did that. I used so many comments in codes and also in every commit I tried to be as specific as I can.
 
-#infrastructure as code solution:
-Something that I feel worth to mention is that we can go a step forward in this provided solution. This provided solution assumes that we have a static environment setup and it’s not going to change much and we build all of our automations over that environment. So, what if we use automation for our environment too? We can use some technics for infrastructure as code or IaC (also named XaC -everything as a code-) to ensure that we can adapt our environment with the need we have and we can store our environment’s best practices in some codes and deploy them as we need also, we can version them and go back and forward in time. So, we create our environment every time we need it and we git rid of it after we done with it. 
-One way that it can be done is by using `OpenShift` and `GitOps` and `Argo CD`. I want to mention that I am familiar with these tools too and with some R&D and also help of team I can manage to maintain that strategy.
+# infrastructure as code solution:
+
+Something that I feel worth to mention is that we can go a step forward in this provided solution. This provided solution assumes that we have a static environment setup and it’s not going to change much and we build all of our automations over that environment. So, what if we use automation for our environment too? We can use some technics for infrastructure as code or IaC (also named XaC -everything as a code-) to ensure that we can adapt our environment with the need we have and we can store our environment’s best practices in some repositories and deploy them as we need also, we can version them and go back and forward in time. So, we create our environment every time we need it and we git rid of it after we done with it. 
+One way that it can be done is by using `OpenShift` and `GitOps` and `Argo CD`. I want to mention that I am familiar with these tools too and with some R&D and also help of team I can manage to maintain that strategies too.
+
+If you find my information usefull please smile to a child.
 
 
  ### Answers menu:

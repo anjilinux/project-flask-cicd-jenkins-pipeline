@@ -3,11 +3,12 @@
 #### Answers by ["Mohammad Taghadosi"](https://linkedin.com/in/mtaghadosi)
 
 # Provided solution for task 4:
-In the tasks before I implicitly provided my solutions. As there is you mentioned there is many information needed for designing a complete solution for this app. So, with this information in my hand and also use of some imagination I clarify the complete solution at the end of this assessment.
+In the tasks before I implicitly provided my solutions. As you mentioned there is many information needed for designing a complete solution for this app. So, with this information in my hand and also use of some imagination I clarify the complete solution at the end of this assessment.
 
 - We use cloud (AWS or GCP or on-premises).
 - In that Cloud we setup our environment.
 - The environment has an auto scaling deployment for our nginx web-server and our static files (JavaScript files) and also has a backend file storage to use as a Persistence volume (PV) for our files and databases (this also can be on premises cloud or it can be AWS S3 etc.).
+- Also, we need some `statefull` services for our Databases
 - Also, the environment has an auto scaling deployment for our PostgreSQL .
 - Also, the environment has some internal and external services to be able to communicate with each other and the outside world, in the real world we can use ingress for DNS an HTTPS.
 - Also, we have an autoscaling deployment for our backend python API app that must be able to comminute with DB and nginx, so also, we need to use service mesh too.
